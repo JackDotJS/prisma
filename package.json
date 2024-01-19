@@ -8,6 +8,10 @@
     "url": "https://github.com/JackDotJS/prisma.git"
   },
   "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "dev": "electron ."
+  },
   "devDependencies": {
     "electron": "^28.1.4"
   }
