@@ -1,0 +1,13 @@
+{
+  "name": "@jackdotjs/prisma",
+  "version": "0.1.0",
+  "author": "JackDotJS",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JackDotJS/prisma.git"
+  },
+  "devDependencies": {
+    "electron": "^28.1.4"
+  }
+}
