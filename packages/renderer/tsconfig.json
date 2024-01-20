@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "sourceMap": false,
+    "moduleResolution": "node10",
+    "skipLibCheck": true,
+    "strict": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "noEmit": true,
+    "jsxImportSource": "solid-js",
+    "types": ["vite/client"],
+    "baseUrl": ".",
+    "paths": {
+      "#preload": ["../preload/src/index"],
+      "/@/*": ["./src/*"],
+    },
+    "lib": ["ESNext", "dom", "dom.iterable"],
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "types/**/*.d.ts",
+    "../../types/**/*.d.ts",
+  ],
+  "exclude": ["**/*.spec.ts", "**/*.test.ts"],
+}

@@ -1,0 +1,16 @@
+{
+  "env": {
+    "browser": true,
+    "node": false
+  },
+  "plugins": [ "solid" ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:solid/typescript"
+  ],
+  "parserOptions": {
+    "parser": "@typescript-eslint/parser",
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  }
+}
